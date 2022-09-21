@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Proyec07 {
+    public static void main(String[] args) {
+        //VARIABLES
+        int n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,s,p;
+        try (Scanner teclado = new Scanner(System.in)) {
+            System.out.print("Numero 1");
+            n1=teclado.nextInt();
+            System.out.print("Numero 2");
+            n2=teclado.nextInt();
+            System.out.print("Numero 3");
+            n3=teclado.nextInt();
+            System.out.print("Numero 4");
+            n4=teclado.nextInt();
+            System.out.print("Numero 5");
+            n5 = teclado.nextInt();
+            System.out.print("Numero 6");
+            n6=teclado.nextInt();
+            System.out.print("Numero 7");
+            n7=teclado.nextInt();
+            System.out.print("Numero 8");
+            n8=teclado.nextInt();
+            System.out.print("Numero 9");
+            n9=teclado.nextInt();
+            System.out.print("Numero 10");
+            n10 = teclado.nextInt();
+        }
+        //PROCESO
+        s=(n1*n2*n3*n4*n5)/n1+n2+n3+n4+n5;
+        p=(n6+n7+n8+n9+n10);
+        //SALIDA
+        System.out.print("Resultado="+s);
+        //SALIDA
+        System.out.print("Suma de los 5 ultimos="+p);      
+        
+    }
+    
+}
+
