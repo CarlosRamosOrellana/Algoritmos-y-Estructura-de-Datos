@@ -1,0 +1,12 @@
+public class Proyec02 {
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        // TODO code application code
+        System.out.println("Ramos Orellana Carlos");
+    
+    
+    }
+    
+}
