@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Proyec03 {
+    public static void main(String[] args) {
+        //VARIABLES
+        int n1,n2,n3,n4,n5,s;
+        try (Scanner teclado = new Scanner(System.in)) {
+            System.out.print("Numero 1");
+            n1=teclado.nextInt();
+            System.out.print("Numero 2");
+            n2=teclado.nextInt();
+            System.out.print("Numero 3");
+            n3=teclado.nextInt();
+            System.out.print("Numero 4");
+            n4=teclado.nextInt();
+            System.out.print("Numero 5");
+            n5 = teclado.nextInt();
+        }
+        //PROCESO
+        s=n1+n2+n3+n4+n5;
+        //SALIDA
+        System.out.print("Suma="+s);
+              
+        
+    }
+    
+}
